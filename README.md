@@ -169,19 +169,9 @@ Or use the test suite: pytest apps/queue/tests/.
 - To test: run pytest apps/tenants/tests/.
 
 
+## 📹 Optional screen recording (Section 5)
+*Skipped – this section is optional and not required for the core assessment.*
 
-### 📹 Optional screen recording (Section 5)
-
-[Loom link – paste your recording URL here]
-❓ Troubleshooting
-
-- Redis connection errors: ensure Redis is running on the URL in .env.
-
-- Celery worker not picking tasks: check that the worker is started with the correct project module (-A assessment.celery).
-
-- Tests failing due to missing tables: run migrations before pytest.
-
-- Django‑silk not showing data: ensure silk is in INSTALLED_APPS and MIDDLEWARE, and that you've made a request to the endpoint.
 
 ### 📝 Notes to the reviewer
 
