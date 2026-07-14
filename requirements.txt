@@ -1,0 +1,27 @@
+# Core Django
+Django==4.2.11
+
+# Database adapters
+psycopg2-binary==2.9.9      # PostgreSQL – switch to psycopg2 if you prefer
+                            # (SQLite is built-in, so this is optional)
+
+# Celery & Broker
+celery==5.3.6
+redis==5.0.1                # Redis client for Python
+
+# Profiling (Section 1)
+django-silk==5.1.0          # Query count & performance evidence
+
+# Environment variables
+python-dotenv==1.0.1        # Load .env file
+
+# Testing
+pytest==8.0.0
+pytest-django==4.8.0        # Django integration for pytest
+pytest-cov==4.1.0           # (optional) coverage reporting
+
+# Utilities (optional but helpful)
+django-debug-toolbar==4.2.0 # Alternative to silk – can be used instead 
+
+
+dj-database-url
