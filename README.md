@@ -19,16 +19,9 @@ It covers:
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd your-repo
-
+git clone https://github.com/hackesofice/backend-assessment.git
+cd backend-assessment
 ```
-
-
-
-
-
-
 
 ### 2. Create and activate a virtual environment
 ```bash
@@ -63,7 +56,7 @@ cp .env.example .env
 
 ### 5. Run database migrations
 ```bash
-
+python manage.py makemigrations
 python manage.py migrate
 
 ```
